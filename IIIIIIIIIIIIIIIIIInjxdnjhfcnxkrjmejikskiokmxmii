@@ -1,0 +1,318 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("💪arm wrestling simulator💪 beta hack script by fel", "BloodTheme") --themes are LightTheme,DarkTheme,GrapeTheme,BloodTheme,Ocean,Midnight,Sentinel, Synapse
+local Tab = Window:NewTab("Home")
+local Section = Tab:NewSection("Credits")
+Section:NewLabel("script by: fel (iwillfailformyfinalswishmeluckok#9679) (solo)")
+Section:NewLabel("UI by: xHeptc")
+local Tab = Window:NewTab("Strength")
+local Section = Tab:NewSection("Upgrade")
+Section:NewButton("Click to upgrade your strength for free", "Upgrades your strength for free", function()
+local args = {
+    [1] = 0,
+    [2] = 1
+}
+game:GetService("ReplicatedStorage"):WaitForChild("strength"):FireServer(unpack(args))
+    print("Clicked")
+end)
+Section:NewLabel("Strength requirements equipments")
+Section:NewButton("0", "Uses the 0 requirement strength equipment", function()local args = {
+    [1] = 1
+}
+workspace:WaitForChild("Main"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+    print("Clicked")
+end)
+Section:NewButton("500", "Uses the 500 requirement strength equipment", function()local args = {
+    [1] = 3
+}
+workspace:WaitForChild("Main"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+    print("Clicked")
+end)
+Section:NewButton("1000", "Uses the 1000 requirement strength equipment", function()local args = {
+    [1] = 10,
+    [2] = 1
+}
+workspace:WaitForChild("Main"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+print("Clicked")
+end)
+Section:NewButton("10k", "Uses the 10k requirement strength equipment", function()local args = {
+    [1] = 30,
+    [2] = 2
+}
+workspace:WaitForChild("Main"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+print("Clicked")
+end)
+Section:NewButton("150k", "Uses the 150k requirement strength equipment", function()local args = {
+    [1] = 85,
+    [2] = 3
+}
+workspace:WaitForChild("Main"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+print("Clicked")
+end)
+Section:NewButton("600k", "Uses the 600k requirement strength equipment", function()local args = {
+    [1] = 120,
+    [2] = 4
+}
+workspace:WaitForChild("Main"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+print("Clicked")
+end)
+Section:NewButton("50m", "Uses the 50m requirement strength equipment", function()local args = {
+    [1] = 300,
+    [2] = 5
+}
+workspace:WaitForChild("Main"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+print("Clicked")
+end)
+Section:NewButton("5b", "Uses the 5b requirement strength equipment", function()local args = {
+    [1] = 1000,
+    [2] = 6
+}
+workspace:WaitForChild("Main"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+print("Clicked")
+end)
+Section:NewButton("10b", "Uses the 10	b requirement strength equipment", function()local args = {
+    [1] = 3000,
+    [2] = 10
+}
+workspace:WaitForChild("Main"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+print("Clicked")
+end)
+Section:NewButton("100b", "Uses the 100b requirement strength equipment", function()local args = {
+    [1] = 5000,
+    [2] = 8
+}
+workspace:WaitForChild("Main"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+print("Clicked")
+end)
+Section:NewButton("5t", "Uses the 5t requirement strength equipment", function()local args = {
+    [1] = 10000,
+    [2] = 9
+}
+workspace:WaitForChild("Main"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+print("Clicked")
+end)
+Section:NewButton("50t", "Uses the 50t requirement strength equipment", function()local args = {
+    [1] = 30000,
+    [2] = 11
+}
+workspace:WaitForChild("Main"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+print("Clicked")
+end)
+Section:NewButton("100t", "Uses the 100t requirement strength equipment", function()local args = {
+    [1] = 50000,
+    [2] = 12
+}
+workspace:WaitForChild("Main"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+print("Clicked")
+end)
+Section:NewButton("500t", "Uses the 500t requirement strength equipment", function()local args = {
+    [1] = 100000,
+    [2] = 13
+}
+workspace:WaitForChild("Main"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+print("Clicked")
+end)
+local Tab = Window:NewTab("Grip")
+local Section = Tab:NewSection("Upgrade")
+Section:NewButton("Click to upgrade grip for free", "Upgrades your grip for free", function()local args = {
+    [1] = 0,
+    [2] = 1
+}
+game:GetService("ReplicatedStorage"):WaitForChild("grip"):FireServer(unpack(args))
+    print("Clicked")
+end)
+Section = Tab:NewSection("Grip requirement equipments")
+Section:NewButton("0", "Uses the 0 requirement grip equipment", function()local args = {
+    [1] = 1
+}
+workspace:WaitForChild("Main2"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+    print("Clicked")
+end)
+Section:NewButton("700", "Uses the 700 requirement grip equipment", function()local args = {
+    [1] = 2
+}
+workspace:WaitForChild("Main2"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+    print("Clicked")
+end)
+Section:NewButton("1500", "Uses the 1500 requirement grip equipment", function()local args = {
+    [1] = 3
+}
+workspace:WaitForChild("Main2"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+    print("Clicked")
+end)
+Section:NewButton("2700", "Uses the 2700 requirement grip equipment", function()local args = {
+    [1] = 4
+}
+workspace:WaitForChild("Main2"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+    print("Clicked")
+end)
+Section:NewButton("5000", "Uses the 5000 requirement grip equipment", function()local args = {
+    [1] = 5
+}
+workspace:WaitForChild("Main2"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+    print("Clicked")
+end)
+Section:NewButton("100k", "Uses the 100k requirement grip equipment", function()local args = {
+    [1] = 10
+}
+workspace:WaitForChild("Main2"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+    print("Clicked")
+end)
+Section:NewButton("1m", "Uses the 1m requirement grip equipment", function()local args = {
+    [1] = 20
+}
+workspace:WaitForChild("Main2"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+    print("Clicked")
+end)
+Section:NewButton("10m", "Uses the 10m requirement grip equipment", function()local args = {
+    [1] = 40
+}
+workspace:WaitForChild("Main2"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+    print("Clicked")
+end)
+Section:NewButton("1b", "Uses the 1b requirement grip equipment", function()local args = {
+    [1] = 150
+}
+workspace:WaitForChild("Main2"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+    print("Clicked")
+end)
+Section:NewButton("10b", "Uses the 10b requirement grip equipment", function()local args = {
+    [1] = 300
+}
+workspace:WaitForChild("Main2"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+    print("Clicked")
+end)
+Section:NewButton("100b", "Uses the 100b requirement grip equipment", function()local args = {
+    [1] = 500
+}
+workspace:WaitForChild("Main2"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+    print("Clicked")
+end)
+Section:NewButton("1t", "Uses the 1t requirement grip equipment", function()local args = {
+    [1] = 2000
+}
+workspace:WaitForChild("Main2"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+    print("Clicked")
+end)
+Section:NewButton("10t", "Uses the 10t requirement grip equipment", function()local args = {
+    [1] = 10000
+}
+workspace:WaitForChild("Main2"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+    print("Clicked")
+end)
+Section:NewButton("100t", "Uses the 100t requirement grip equipment", function()local args = {
+    [1] = 20000
+}
+workspace:WaitForChild("Main2"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+    print("Clicked")
+end)
+local Tab = Window:NewTab("Bicep")
+local Section = Tab:NewSection("Upgrade")
+Section:NewButton("Click to upgrade your bicep for free", "Upgrades your bicep for free", function()
+local args = {
+    [1] = 0,
+    [2] = 1
+}
+game:GetService("ReplicatedStorage"):WaitForChild("bicep"):FireServer(unpack(args))
+    print("Clicked")
+end)
+Section = Tab:NewSection("Bicep requirement equipments")
+Section:NewButton("0", "Uses the 0 requirement bicep equipment", function()local args = {
+    [1] = 1
+}
+workspace:WaitForChild("Main3"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+    print("Clicked")
+end)
+Section:NewButton("300", "Uses the 300 requirement bicep equipment", function()local args = {
+    [1] = 2
+}
+workspace:WaitForChild("Main3"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+    print("Clicked")
+end)
+Section:NewButton("700", "Uses the 700 requirement bicep equipment", function()local args = {
+    [1] = 3
+}
+workspace:WaitForChild("Main3"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+    print("Clicked")
+end)
+Section:NewButton("10k", "Uses the 10k requirement bicep equipment", function()local args = {
+    [1] = 20
+}
+workspace:WaitForChild("Main3"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+    print("Clicked")
+end)
+Section:NewButton("325k", "Uses the 325k requirement bicep equipment", function()local args = {
+    [1] = 30
+}
+workspace:WaitForChild("Main3"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+    print("Clicked")
+end)
+Section:NewButton("500k", "Uses the 500k requirement bicep equipment", function()local args = {
+    [1] = 80
+}
+workspace:WaitForChild("Main3"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+    print("Clicked")
+end)
+Section:NewButton("50m", "Uses the 50m requirement bicep equipment", function()local args = {
+    [1] = 300
+}
+workspace:WaitForChild("Main3"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+    print("Clicked")
+end)
+Section:NewButton("5b", "Uses the 5b requirement bicep equipment", function()local args = {
+    [1] = 1000
+}
+workspace:WaitForChild("Main3"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+    print("Clicked")
+end)
+Section:NewButton("50b", "Uses the 50b requirement bicep equipment", function()local args = {
+    [1] = 3000
+}
+workspace:WaitForChild("Main3"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+    print("Clicked")
+end)
+Section:NewButton("500b", "Uses the 500b requirement bicep equipment", function()local args = {
+    [1] = 7000
+}
+workspace:WaitForChild("Main3"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+    print("Clicked")
+end)
+Section:NewButton("5t", "Uses the 5t requirement bicep equipment", function()local args = {
+    [1] = 10000
+}
+workspace:WaitForChild("Main3"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+    print("Clicked")
+end)
+Section:NewButton("50t", "Uses the 50t requirement bicep equipment", function()local args = {
+    [1] = 30000
+}
+workspace:WaitForChild("Main3"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+    print("Clicked")
+end)
+Section:NewButton("500t", "Uses the 500t requirement bicep equipment", function()local args = {
+    [1] = 100000
+}
+workspace:WaitForChild("Main3"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+    print("Clicked")
+end)
+local Tab = Window:NewTab("Player")
+local Section = Tab:NewSection("Humanoid")
+Section:NewSlider("Walkspeed", "Sets your walkspeed", 500, 16, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
+Section:NewSlider("Jumppower", "Sets your jumppower", 500, 50, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+end)
+local Tab = Window:NewTab("Keybind")
+local Section = Tab:NewSection("Keybind button")
+Section:NewKeybind("Keybind:", "The keybind to this script", Enum.KeyCode.F, function()
+	Library:ToggleUI()
+end)
+local Tab = Window:NewTab("Currency")
+local Section = Tab:NewSection("Arm bucks")
+Section:NewSlider("Arm bucks", "Sets how much armbucks you'll get", -10000000, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    local args = {
+    [1] = s,
+    [2] = 0
+}
+game:GetService("ReplicatedStorage"):WaitForChild("bicep"):FireServer(unpack(args))
+end)
